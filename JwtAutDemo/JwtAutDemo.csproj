@@ -6,8 +6,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.15.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\jwt\Controllers\" />
+    <Folder Include="Areas\jwt\Data\" />
+    <Folder Include="Areas\jwt\Models\" />
+    <Folder Include="Areas\jwt\Views\" />
   </ItemGroup>
 
 </Project>
