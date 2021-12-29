@@ -27,8 +27,8 @@ namespace JwtAutDemo.Areas.jwt.Middleware
                 x.TokenValidationParameters = new TokenValidationParameters
                 {
                     IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
+                    ValidateIssuer = false, //true,
+                    ValidateAudience = false, //true,
                     ValidIssuer = "localhost",
                     ValidAudience = "localhost"
                 };
